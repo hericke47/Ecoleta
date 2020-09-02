@@ -1,5 +1,5 @@
 <h1 align="center">
-  🚀️ Back-end Ecoleta 💅️✂️
+  🚀️ Back-end Ecoleta ♻️
 </h1>
 
 ---
@@ -84,7 +84,7 @@ Para instalar as dependências e iniciar o projeto, você pode utilizar o Yarn o
 ```
 ---
 
-## 🤔️ Como contribuir
+## ♻️ Como contribuir
 
 1. Faça o `fork` deste repositório
 2. Crie uma branch com sua feature:
