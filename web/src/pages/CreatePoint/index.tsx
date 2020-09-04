@@ -147,8 +147,8 @@ const CreatePoint = () => {
               <label htmlFor="city">Cidade</label>
               <select name="city" id="city">
                 <option value="0">Selecione uma Cidade</option>
-                {cities.map(uf => (
-                  <option key={uf} value={uf}>{uf}</option>
+                {cities.map(city => (
+                  <option key={city} value={city}>{city}</option>
                 ))}
               </select>
             </div>
