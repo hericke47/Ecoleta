@@ -31,7 +31,7 @@ const CreatePoint = () => {
   const [cities, setCities] = useState<string[]>([]);
 
   const [formData, setFormData] = useState({
-    nome: '',
+    name: '',
     email: '',
     whatsapp: ''
   })
@@ -98,6 +98,25 @@ const CreatePoint = () => {
 
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
+
+    const { name, email, whatsapp } = formData;
+    const uf = selectedUf;
+    const city = selectedCity;
+    const [latitude, longitude] = selectedPosition;
+    const items = selectedItems;
+
+    const data = {
+      name,
+      email,
+      whatsapp,
+      uf,
+      city,
+      latitude,
+      longitude,
+      items,
+    }
+
+    console.log(data);
   }
 
   function handleSelectItem(id: number) {
