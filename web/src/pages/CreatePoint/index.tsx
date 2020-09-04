@@ -87,8 +87,37 @@ const CreatePoint = () => {
             <span>Selecione um ou mais itens abaixo</span>
           </legend>
 
-        
+          <ul className="items-grid">
+            <li>
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+            <li className="selected">
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+            <li>
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+            <li>
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+            <li className="selected">
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+            <li>
+              <img src="http://localhost:3333/uploads/oleo.svg" alt=""/>
+              <span>Óleo de Cozinha</span>
+            </li>
+          </ul>
         </fieldset>
+
+        <button type="submit">
+          Cadastrar ponto de coleta
+        </button>
       </form>
     </div>
   )
